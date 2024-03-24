@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+	list-style: none;
+}
+.narbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px
+}
+.narbar a{
+	padding: 10px 20px;
+}
+.hovermenu a{
+	padding: 10px 20px;
+	color: dimgray; border-radius: 15px;
+}
+.iconmenu i{
+	padding: 0 px;
+	width: 40%; height: auto;
+}
+.hovermenu a:hover{
+	background-color: #A22323; color: white;
+}
+.item img{
+	height: auto;
+}
+.item2 img{
+	width: 100%;height: auto;
+}
+.gach-chan{
+	border-bottom: 4px solid #A22323;
+}
+.text-do{
+	color: #A22323;
+	font-weight: 600;
+}
+.text-xam{
+	font-size: 20px;
+}
+.vien{
+	border: 1px solid #A22323;
+	padding: 20px;
+	; position: relative;overflow: hidden;
+}
+.icon{
+	position: absolute;
+	width: 80%;
+	height: 40px;
+	left: 10%;
+	top: -15%;
+	display: flex;
+	justify-content: space-around;
+	transition: all 1s;
+}
+.icon a{
+	width: 40px; height: 40px;background: white; border-radius: 50%; display:flex; justify-content: center; align-items: center; color: #A22323;
+}
+.icon a:hover{
+	background-color: #A22323; color: white
+}
+.vien:hover .icon{
+	top:30%;
+	
+}
+.product{
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+}
+.banner2{
+	width: 100%; max-height: 450px; position: relative;
+}
+.caption{
+	position: absolute;
+	width: 30%;
+	text-align: center; left: 35%; top: 30px;
+}
+.caption2{
+	position: absolute;
+	width:30%;
+	text-align: center;left: 12%; top: 150px;
+}
+.vien2{
+	border: 2px solid white;
+	padding: 25px 70px
+}
+.vien2 a:hover{
+	color: white
+}
+.khung{
+	display: flex;
+	flex-direction: row;
+	padding: 0 30px;
+	justify-content: space-around;
+	
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	padding-bottom: 15px;
+}
+.form input{
+	padding: 8px ;
+	width: 100%
+}
+.form textarea{
+	padding: 8px ;
+	width: 100%
+}
+.form-control{
+	background-color:#F87503;
+	color: white;
+	border-radius: 5px;
+	border: hidden;
+	padding: 8px;
+}
+.vien3{
+	border: 1px solid grey;
+	box-shadow: 2px 2px 10px 0 grey;
+	padding: 20px ;
+}
+
+.banner3 {
+	position: relative
+}
+.contact{
+	position: absolute;
+	width: 34%;
+left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 5%
+}
+.btn {
+    cursor:pointer;
+    border: none;
+	border-radius: 5px;
+    background: #F87503;color:white;
+	
+}
+
+input.btn[type="submit"]:hover {
+    background: #A22323;
+	color: white;
+}
